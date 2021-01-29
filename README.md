@@ -45,10 +45,11 @@ lines to the `/home/pi/.bashrc` file:
 
 ### Installation Method 2
 If you prefer to create a service instead, move `rgb-daylight.service` to `/lib/systemd/system` and run the following:
-`sudo systemctl daemon-reload`
-`sudo systemctl enable rgb-daylight.service`
-`sudo systemctl start rgb-daylight.service`
-*By default, the unit file assumines you cloned the repo to `/home/pi/`, if necessary, change the location in the unit file to the path you've cloned the repo to.*
+	
+	sudo systemctl daemon-reload
+	sudo systemctl enable rgb-daylight.service
+	sudo systemctl start rgb-daylight.service
+*By default, the unit file assumes you cloned the repo to `/home/pi/`, if necessary, change the location in the unit file to the path you've cloned the repo to.*
 
 ## Build
 
